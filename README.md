@@ -23,3 +23,5 @@ This repository contains all tutorial work from  **Jonas Schmedtmann’s** Maste
 
 ## ⭐ 12 - Effects and Data Fetching
 - **Overview:**  This is a continuation of **Module 07**.  Introduces side effects in React by connecting the usePopcorn app to the OMDb API. Emphasizes using useEffect for data fetching, synchronizing state with external systems (API, keyboard, document title), handling cleanup, and managing async race conditions to keep UI and state consistent.
+<br><img src="https://github.com/david125tran/React-MasterClass/blob/main/12%20-%20Effects%20and%20Data%20Fetching/UI_01.png?raw=true" width="300"/>
+<br><img src="https://github.com/david125tran/React-MasterClass/blob/main/12%20-%20Effects%20and%20Data%20Fetching/UI_02.png?raw=true" width="300"/>
