@@ -22,6 +22,18 @@ This repository contains all tutorial work from  **Jonas Schmedtmann’s** Maste
 - **Overview:** Explores how React renders and re-renders components based on state changes. Uses a tab system to demonstrate how component identity, keys, batching of state updates, functional state setters, and asynchronous updates affect rendering behavior and state consistency. Shows why state can appear “stale”, how React batches updates, and how remounting resets component state.
 
 ## ⭐ 12 - Effects and Data Fetching
-- **Overview:**  This is a continuation of **Module 07**.  Introduces side effects in React by connecting the usePopcorn app to the OMDb API. Emphasizes using useEffect for data fetching, synchronizing state with external systems (API, keyboard, document title), handling cleanup, and managing async race conditions to keep UI and state consistent.
+- **Overview:**  Continuation of **Module 07**.  Introduces side effects in React by connecting the usePopcorn app to the OMDb API. Emphasizes using useEffect for data fetching, synchronizing state with external systems (API, keyboard, document title), handling cleanup, and managing async race conditions to keep UI and state consistent.
 <br><img src="https://github.com/david125tran/React-MasterClass/blob/main/12%20-%20Effects%20and%20Data%20Fetching/UI_01.png?raw=true" width="300"/>
 <br><img src="https://github.com/david125tran/React-MasterClass/blob/main/12%20-%20Effects%20and%20Data%20Fetching/UI_02.png?raw=true" width="300"/>
+
+## ⭐ 13 - Custom Hooks, Refs & Advanced State
+
+- **Overview:**  
+  Continuation of **Module 12**, extending the `usePopcorn` app by extracting side-effect and data logic into reusable **custom hooks**, introducing `useRef` for persistent mutable values, and refining real-world state patterns.
+
+  This module introduces:
+  - `useMovies` for OMDb API fetching with loading, error handling, and request cancellation.
+  - `useLocalStorageState` for syncing React state with `localStorage`.
+  - `useKey` for reusable global keyboard shortcuts.
+
+  It also demonstrates practical `useRef` usage for DOM focus control and tracking mutable values without re-renders, leading to cleaner components and better separation of concerns.
